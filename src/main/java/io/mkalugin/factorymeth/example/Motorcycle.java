@@ -1,0 +1,8 @@
+package io.mkalugin.factorymeth.example;
+
+public class Motorcycle implements MotorVehicle {
+    @Override
+    public void build() {
+        System.out.println("Build Motorcycle");
+    }
+}
